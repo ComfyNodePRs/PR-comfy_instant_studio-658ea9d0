@@ -1,0 +1,15 @@
+[project]
+name = "comfy_instant_studio"
+description = ""
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy", "Pillow", "Requests"]
+
+[project.urls]
+Repository = "https://github.com/kudelabs/comfy_instant_studio"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfy_instant_studio"
+Icon = ""
